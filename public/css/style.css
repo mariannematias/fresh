@@ -42,7 +42,10 @@ footer.footer-dark .footer-logo img {
 .level.is-mobile .level-item {
     margin-right: 1rem;
     font-size: 1.3rem;
-    color: #F39200;
+    color: #fff;
+}
+.level.is-mobile .level-item:hover {
+    opacity: .8;
 }
 .level.is-mobile a:first-child {
     margin-left: 1rem;

@@ -19,7 +19,7 @@
                             </h1>
                             <h2 class="subtitle is-5 is-muted">{{page.hero_section.subtitle}}</h2>
                             <p>
-                                <a href="#register" class="scroll-btn button cta rounded primary-btn raised" style="background-color:{{page.hero_section.btn_color}}; border-color:{{page.hero_section.btn_color}};">
+                                <a href="#contact" class="scroll-btn button cta rounded primary-btn raised" style="background-color:{{page.hero_section.btn_color}}; border-color:{{page.hero_section.btn_color}};">
                                     {{page.hero_section.btn_text}}
                                 </a>
                             </p>
@@ -70,7 +70,7 @@
                                     <p>{{page.section1.lists.list1.description}}</p>
                                 </div>
                                 <div class="card-action">
-                                    <a href="#register" class="scroll-btn button btn-align-md accent-btn raised" style="background-color:{{page.section1.lists.list1.btn_color}}; border-color:{{page.section1.lists.list1.btn_color}};">{{page.section1.lists.list1.btn_text}}</a>
+                                    <a href="#contact" class="scroll-btn button btn-align-md accent-btn raised" style="background-color:{{page.section1.lists.list1.btn_color}}; border-color:{{page.section1.lists.list1.btn_color}};">{{page.section1.lists.list1.btn_text}}</a>
                                 </div>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
                                     <p>{{page.section1.lists.list2.description}}</p>
                                 </div>
                                 <div class="card-action">
-                                    <a href="#register" class="scroll-btn button btn-align-md accent-btn raised" style="background-color:{{page.section1.lists.list2.btn_color}}; border-color:{{page.section1.lists.list2.btn_color}};">{{page.section1.lists.list2.btn_text}}</a>
+                                    <a href="#contact" class="scroll-btn button btn-align-md accent-btn raised" style="background-color:{{page.section1.lists.list2.btn_color}}; border-color:{{page.section1.lists.list2.btn_color}};">{{page.section1.lists.list2.btn_text}}</a>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
                                     <p>{{page.section1.lists.list3.description}}</p>
                                 </div>
                                 <div class="card-action">
-                                    <a href="#register" class="scroll-btn button btn-align-md accent-btn raised" style="background-color:{{page.section1.lists.list3.btn_color}}; border-color:{{page.section1.lists.list3.btn_color}};">{{page.section1.lists.list3.btn_text}}</a>
+                                    <a href="#contact" class="scroll-btn button btn-align-md accent-btn raised" style="background-color:{{page.section1.lists.list3.btn_color}}; border-color:{{page.section1.lists.list3.btn_color}};">{{page.section1.lists.list3.btn_text}}</a>
                                 </div>
                             </div>
                         </div>
@@ -200,7 +200,7 @@
                 </div>
 
                 <p class="has-text-centered mt-20">
-                    <a class="button cta is-large rounded secondary-btn raised" style="background-color:{{page.section3.btn_color}}; border-color:{{page.section3.btn_color}};">
+                    <a href="#contact" class="button cta is-large rounded secondary-btn raised" style="background-color:{{page.section3.btn_color}}; border-color:{{page.section3.btn_color}};">
                         {{page.section3.btn_text}}
                     </a>
                 </p>
@@ -209,60 +209,62 @@
         {{/page.section3.show_or_hide}}
 
         {{#page.section4.show_or_hide}}
-        <section class="section is-medium section-secondary" id="section4">
-            <div class="container">
-                <div class="title-wrapper has-text-centered">
-                    <h2 class="title is-2 light-text is-spaced">{{page.section4.title}}</h2>
-                    <h3 class="subtitle is-5 light-text">{{page.section4.subtitle}}</h3>
-                </div>
+        <section class="section is-medium section-secondary">
+            <section id="section4">
+                <div class="container">
+                    <div class="title-wrapper has-text-centered">
+                        <h2 class="title is-2 light-text is-spaced">{{page.section4.title}}</h2>
+                        <h3 class="subtitle is-5 light-text">{{page.section4.subtitle}}</h3>
+                    </div>
 
-                <div class="content-wrapper">
-                    <div class="columns is-vcentered">
-                        <div class="column is-4">
-                            <figure class="testimonial">
-                                <blockquote>
-                                    {{page.section4.lists.list1.description}}
-                                </blockquote>
-                                <div class="author">
-                                    <img src="{{{page.section4.lists.list1.img_list}}}" alt="" data-aos="zoom-in" data-aos-duration="1000"/>
-                                    <h5>{{page.section4.lists.list1.name}}</h5><span>{{page.section4.lists.list1.position}}</span>
-                                </div>
-                            </figure>
-                        </div>
-                        <div class="column is-4">
-                            <figure class="testimonial">
-                                <blockquote>
-                                    {{page.section4.lists.list2.description}}
-                                </blockquote>
-                                <div class="author">
-                                    <img src="{{{page.section4.lists.list2.img_list}}}" alt="" data-aos="zoom-in" data-aos-duration="1100"/>
-                                    <h5>{{page.section4.lists.list2.name}}</h5><span>{{page.section4.lists.list2.position}}</span>
-                                </div>
-                            </figure>
-                        </div>
-                        <div class="column is-4">
-                            <figure class="testimonial">
-                                <blockquote>
-                                    {{page.section4.lists.list3.description}}
-                                </blockquote>
-                                <div class="author">
-                                    <img src="{{{page.section4.lists.list3.img_list}}}" alt="" data-aos="zoom-in" data-aos-duration="1200"/>
-                                    <h5>{{page.section4.lists.list3.name}}</h5><span>{{page.section4.lists.list3.position}}</span>
-                                </div>
-                            </figure>
+                    <div class="content-wrapper">
+                        <div class="columns is-vcentered">
+                            <div class="column is-4">
+                                <figure class="testimonial">
+                                    <blockquote>
+                                        {{page.section4.lists.list1.description}}
+                                    </blockquote>
+                                    <div class="author">
+                                        <img src="{{{page.section4.lists.list1.img_list}}}" alt="" data-aos="zoom-in" data-aos-duration="1000"/>
+                                        <h5>{{page.section4.lists.list1.name}}</h5><span>{{page.section4.lists.list1.position}}</span>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="column is-4">
+                                <figure class="testimonial">
+                                    <blockquote>
+                                        {{page.section4.lists.list2.description}}
+                                    </blockquote>
+                                    <div class="author">
+                                        <img src="{{{page.section4.lists.list2.img_list}}}" alt="" data-aos="zoom-in" data-aos-duration="1100"/>
+                                        <h5>{{page.section4.lists.list2.name}}</h5><span>{{page.section4.lists.list2.position}}</span>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="column is-4">
+                                <figure class="testimonial">
+                                    <blockquote>
+                                        {{page.section4.lists.list3.description}}
+                                    </blockquote>
+                                    <div class="author">
+                                        <img src="{{{page.section4.lists.list3.img_list}}}" alt="" data-aos="zoom-in" data-aos-duration="1200"/>
+                                        <h5>{{page.section4.lists.list3.name}}</h5><span>{{page.section4.lists.list3.position}}</span>
+                                    </div>
+                                </figure>
+                            </div>
                         </div>
                     </div>
-                </div>
+                 </section>
             </div>
         </section>
         {{/page.section4.show_or_hide}}
 
-        {{#page.register.show_or_hide}}
-        <section class="section section-light-grey is-medium" id="register">
+        {{#page.contact.show_or_hide}}
+        <section class="section section-light-grey is-medium" id="contact">
             <div class="container">
                 <div class="title-wrapper has-text-centered">
-                    <h2 class="title is-2 is-spaced">{{page.register.title}}</h2>
-                    <h3 class="subtitle is-5 is-muted">{{page.register.subtitle}}</h3>
+                    <h2 class="title is-2 is-spaced">{{page.contact.title}}</h2>
+                    <h3 class="subtitle is-5 is-muted">{{page.contact.subtitle}}</h3>
                     <div class="divider is-centered"></div>
                 </div>
 
@@ -281,7 +283,7 @@
                                         <textarea class="textarea" rows="10" id="edd-user-message" placeholder="Write someting ..."></textarea>
                                     </div>
                                     <div class="form-footer has-text-centered mt-10">
-                                        <button id="btn-register" class="button cta is-large primary-btn raised is-clear"  style="background-color:{{page.register.btn_color}}; border-color:{{page.register.btn_color}};">Send Message</button>
+                                        <button id="btn-register" class="button cta is-large primary-btn raised is-clear"  style="background-color:{{page.contact.btn_color}}; border-color:{{page.contact.btn_color}};">Send Message</button>
                                     </div>
                                 </div>
                             </form>
@@ -290,7 +292,7 @@
                 </div>
             </div>
         </section>
-        {{/page.register.show_or_hide}}
+        {{/page.contact.show_or_hide}}
 		
 		{{>footer}}
 	</div>

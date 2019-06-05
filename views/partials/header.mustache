@@ -14,20 +14,35 @@
 
         <div id="navbar-menu" class="navbar-menu is-static">
             <div class="navbar-end">
-                <a href="#" class="navbar-item is-secondary">
-                    Features
+                {{#global.header_nav.nav1.show_or_hide}}
+                <a href="#section1" class="navbar-item is-secondary">
+                   {{global.header_nav.nav1.text}}
                 </a>
-                <a href="#" class="navbar-item is-secondary">
-                    Pricing
+                {{/global.header_nav.nav1.show_or_hide}}
+
+                {{#global.header_nav.nav2.show_or_hide}}
+                <a href="#section2" class="navbar-item is-secondary">
+                    {{global.header_nav.nav2.text}}
                 </a>
-                <a href="#" class="navbar-item is-secondary modal-trigger" data-modal="auth-modal">
-                    Log in
+                {{/global.header_nav.nav2.show_or_hide}}
+
+                {{#global.header_nav.nav3.show_or_hide}}
+                <a href="#section3" class="navbar-item is-secondary">
+                    {{global.header_nav.nav3.text}}
                 </a>
-                <a class="navbar-item">
-                    <span class="button signup-button rounded secondary-btn raised">
-                        Sign up
-                    </span>
+                {{/global.header_nav.nav3.show_or_hide}}
+
+                {{#global.header_nav.nav4.show_or_hide}}
+                <a href="#section4" class="navbar-item is-secondary">
+                    {{global.header_nav.nav4.text}}
                 </a>
+                {{/global.header_nav.nav4.show_or_hide}}
+
+                {{#global.header_nav.nav5.show_or_hide}}
+                <a href="#contact" class="navbar-item is-secondary">
+                    {{global.header_nav.nav5.text}}
+                </a>
+                {{/global.header_nav.nav5.show_or_hide}}
             </div>
         </div>
     </div>
@@ -49,20 +64,35 @@
 
         <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
             <div class="navbar-end">
-                <a href="#" class="navbar-item is-secondary">
-                    Features
+                {{#global.header_nav.nav1.show_or_hide}}
+                <a href="#section1" class="navbar-item is-secondary">
+                   {{global.header_nav.nav1.text}}
                 </a>
-                <a href="#" class="navbar-item is-secondary">
-                    Pricing
+                {{/global.header_nav.nav1.show_or_hide}}
+
+                {{#global.header_nav.nav2.show_or_hide}}
+                <a href="#section2" class="navbar-item is-secondary">
+                    {{global.header_nav.nav2.text}}
                 </a>
-                <a href="#" class="navbar-item is-secondary modal-trigger" data-modal="auth-modal">
-                    Log in
+                {{/global.header_nav.nav2.show_or_hide}}
+
+                {{#global.header_nav.nav3.show_or_hide}}
+                <a href="#section3" class="navbar-item is-secondary">
+                    {{global.header_nav.nav3.text}}
                 </a>
-                <a class="navbar-item">
-                    <span class="button signup-button rounded secondary-btn raised">
-                        Sign up
-                    </span>
+                {{/global.header_nav.nav3.show_or_hide}}
+
+                {{#global.header_nav.nav4.show_or_hide}}
+                <a href="#section4" class="navbar-item is-secondary">
+                    {{global.header_nav.nav4.text}}
                 </a>
+                {{/global.header_nav.nav4.show_or_hide}}
+
+                {{#global.header_nav.nav5.show_or_hide}}
+                <a href="#contact" class="navbar-item is-secondary">
+                    {{global.header_nav.nav5.text}}
+                </a>
+                {{/global.header_nav.nav5.show_or_hide}}
             </div>
         </div>
     </div>

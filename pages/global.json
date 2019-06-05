@@ -1,0 +1,29 @@
+{
+    "site_name": "Fresh",
+    "img_favicon": "https://lh3.googleusercontent.com/5SVrpLI9utkuVJbQb48cpD3tar59mgWaWSAM73Ghj8dxFJMD2UOzkhO5ptWDd2uV2eqgSvDCSa-Ad8aOrygXx6nv",
+    "img_logo_nav": "https://lh3.googleusercontent.com/jJ96n5JQkdWJQKLMYWaZ4bxMwRTqdQy2LIBKdfosqRLeGrq9HquUy-5fBueqOjWexfUhV7FCBOv6kJ6XLdlntXYu5w",
+    "img_logo_footer": "https://lh3.googleusercontent.com/Glj8D9Xa9sjyaXXowkVeXHvNbcXX-8zuE_yJOjAcZrTuch1p-HxVnYQX-l7fuTFrVkS56wn0HY9r1BbwwsXKLUuo",
+    "subscriber_confirmation": "Thank you for subscribing! We will contact you shortly.",
+    "footer": {
+        "github": {
+            "link": "https://github.com/",
+            "show_or_hide": true
+        },
+        "dribbble": {
+            "link": "https://dribbble.com/",
+            "show_or_hide": true
+        },
+        "facebook": {
+            "link": "https://facebook.com/",
+            "show_or_hide": true
+        },
+        "twitter": {
+            "link": "https://twitter.com/",
+            "show_or_hide": true
+        },
+        "bitbucket": {
+            "link": "https://bitbucket.com/",
+            "show_or_hide": true
+        }
+    }
+}

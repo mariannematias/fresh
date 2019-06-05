@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang='en'>
+{{>head}}
+<body>
+	<div id="vertex-container">
+        <div id="preloader">
+            <div id="status"></div>
+        </div>
+
+        <section class="hero is-fullheight is-default is-bold" id="hero_section">
+            {{>header}}
+
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-vcentered">
+                        <div class="column is-5 is-offset-1 landing-caption">
+                            <h1 class="title is-1 is-bold is-spaced">
+                               {{page.hero_section.title}}
+                            </h1>
+                            <h2 class="subtitle is-5 is-muted">{{page.hero_section.subtitle}}</h2>
+                            <p>
+                                <a href="#register" class="scroll-btn button cta rounded primary-btn raised" style="background-color:{{page.hero_section.btn_color}}; border-color:{{page.hero_section.btn_color}};">
+                                    {{page.hero_section.btn_text}}
+                                </a>
+                            </p>
+                        </div>
+                        <div class="column is-5 is-offset-1">
+                            <figure class="image is-4by3">
+                                <img src="{{{page.hero_section.img_hero}}}" alt="Description">
+                            </figure>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-foot mb-20">
+                <div class="container">
+                    <div class="tabs is-centered">
+                        <ul>
+                            {{#page.hero_section.clients}}
+                                <li><a><img class="partner-logo" src="{{{img_client}}}"></a></li>
+                            {{/page.hero_section.clients}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {{#page.section1.show_or_hide}}
+        <section class="section section-feature-grey is-medium" id="section1">
+            <div class="container">
+                <div class="title-wrapper has-text-centered">
+                    <h2 class="title is-2">{{page.section1.title}}</h2>
+                    <h3 class="subtitle is-5 is-muted">{{page.section1.subtitle}}</h3>
+                    <div class="divider is-centered"></div>
+                </div>
+
+                <div class="content-wrapper">
+                    <div class="columns">
+                        <div class="column is-one-third">
+                            <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
+                                <div class="card-title">
+                                    <h4>{{page.section1.lists.list1.title}}</h4>
+                                </div>
+                                <div class="card-icon">
+                                    <img src="{{{page.section1.lists.list1.img_list}}}">
+                                </div>
+                                <div class="card-text">
+                                    <p>{{page.section1.lists.list1.description}}</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#register" class="scroll-btn button btn-align-md accent-btn raised" style="background-color:{{page.section1.lists.list1.btn_color}}; border-color:{{page.section1.lists.list1.btn_color}};">{{page.section1.lists.list1.btn_text}}</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="feature-card is-bordered has-text-centered revealOnScroll delay-2" data-animation="fadeInLeft">
+                                <div class="card-title">
+                                    <h4>{{page.section1.lists.list2.title}}</h4>
+                                </div>
+                                <div class="card-icon">
+                                    <img src="{{{page.section1.lists.list2.img_list}}}">
+                                </div>
+                                <div class="card-text">
+                                    <p>{{page.section1.lists.list2.description}}</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#register" class="scroll-btn button btn-align-md accent-btn raised" style="background-color:{{page.section1.lists.list2.btn_color}}; border-color:{{page.section1.lists.list2.btn_color}};">{{page.section1.lists.list2.btn_text}}</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="feature-card is-bordered has-text-centered revealOnScroll delay-3" data-animation="fadeInLeft">
+                                <div class="card-title">
+                                    <h4>{{page.section1.lists.list3.title}}</h4>
+                                </div>
+                                <div class="card-icon">
+                                    <img src="{{{page.section1.lists.list3.img_list}}}">
+                                </div>
+                                <div class="card-text">
+                                    <p>{{page.section1.lists.list3.description}}</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#register" class="scroll-btn button btn-align-md accent-btn raised" style="background-color:{{page.section1.lists.list3.btn_color}}; border-color:{{page.section1.lists.list3.btn_color}};">{{page.section1.lists.list3.btn_text}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{/page.section1.show_or_hide}}
+
+        {{#page.section2.show_or_hide}}
+        <section class="section is-medium" id="section2">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-centered-tablet-portrait">
+                        <h1 class="title section-title">{{page.section2.title}}</h1>
+                        <h3 class="subtitle is-4 is-muted">{{page.section2.subtitle}}</h3>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="column is-8 mt-60">
+                        <!-- icon block -->
+                        <article class="media icon-box">
+                            <figure class="media-left">
+                                <p class="image">
+                                    <img src="{{{page.section2.lists.list1.img_list}}}">
+                                </p>
+                            </figure>
+                            <div class="media-content mt-50">
+                                <div class="content">
+                                    <p>
+                                        <span class="icon-box-title">{{page.section2.lists.list1.title}}</span>
+                                        <span class="icon-box-text">{{page.section2.lists.list1.description}}</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- /icon block -->
+
+                        <!-- icon block -->
+                        <article class="media icon-box">
+                            <figure class="media-left">
+                                <p class="image">
+                                    <img src="{{{page.section2.lists.list2.img_list}}}">
+                                </p>
+                            </figure>
+                            <div class="media-content mt-50">
+                                <div class="content">
+                                    <p>
+                                        <span class="icon-box-title">{{page.section2.lists.list2.title}}</span>
+                                        <span class="icon-box-text">{{page.section2.lists.list2.description}}</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- /icon block -->
+
+                        <!-- icon block -->
+                        <article class="media icon-box">
+                            <figure class="media-left">
+                                <p class="image">
+                                    <img src="{{{page.section2.lists.list3.img_list}}}">
+                                </p>
+                            </figure>
+                            <div class="media-content mt-50">
+                                <div class="content">
+                                    <p>
+                                        <span class="icon-box-title">{{page.section2.lists.list3.title}}</span>
+                                        <span class="icon-box-text">{{page.section2.lists.list3.description}}</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- /icon block -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{/page.section2.show_or_hide}}
+
+        {{#page.section3.show_or_hide}}
+        <section class="section section-feature-grey is-medium" id="section3">
+            <div class="container">
+
+                <div class="columns">
+                    <div class="column is-10 is-offset-1">
+                        <div class="has-text-centered">
+                            <img class="pushed-image" src="{{{page.section3.img_section}}}=s720">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="title-wrapper has-text-centered">
+                    <h2 class="title is-2">{{page.section3.title}}</h2>
+                    <h3 class="subtitle is-5 is-muted">{{page.section3.subtitle}}</h3>
+                </div>
+
+                <p class="has-text-centered mt-20">
+                    <a class="button cta is-large rounded secondary-btn raised" style="background-color:{{page.section3.btn_color}}; border-color:{{page.section3.btn_color}};">
+                        {{page.section3.btn_text}}
+                    </a>
+                </p>
+            </div>
+        </section>
+        {{/page.section3.show_or_hide}}
+
+        {{#page.section4.show_or_hide}}
+        <section class="section is-medium section-secondary" id="section4">
+            <div class="container">
+                <div class="title-wrapper has-text-centered">
+                    <h2 class="title is-2 light-text is-spaced">{{page.section4.title}}</h2>
+                    <h3 class="subtitle is-5 light-text">{{page.section4.subtitle}}</h3>
+                </div>
+
+                <div class="content-wrapper">
+                    <div class="columns is-vcentered">
+                        <div class="column is-4">
+                            <figure class="testimonial">
+                                <blockquote>
+                                    {{page.section4.lists.list1.description}}
+                                </blockquote>
+                                <div class="author">
+                                    <img src="{{{page.section4.lists.list1.img_list}}}" alt="" data-aos="zoom-in" data-aos-duration="1000"/>
+                                    <h5>{{page.section4.lists.list1.name}}</h5><span>{{page.section4.lists.list1.position}}</span>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="column is-4">
+                            <figure class="testimonial">
+                                <blockquote>
+                                    {{page.section4.lists.list2.description}}
+                                </blockquote>
+                                <div class="author">
+                                    <img src="{{{page.section4.lists.list2.img_list}}}" alt="" data-aos="zoom-in" data-aos-duration="1100"/>
+                                    <h5>{{page.section4.lists.list2.name}}</h5><span>{{page.section4.lists.list2.position}}</span>
+                                </div>
+                            </figure>
+                        </div>
+                        <div class="column is-4">
+                            <figure class="testimonial">
+                                <blockquote>
+                                    {{page.section4.lists.list3.description}}
+                                </blockquote>
+                                <div class="author">
+                                    <img src="{{{page.section4.lists.list3.img_list}}}" alt="" data-aos="zoom-in" data-aos-duration="1200"/>
+                                    <h5>{{page.section4.lists.list3.name}}</h5><span>{{page.section4.lists.list3.position}}</span>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{/page.section4.show_or_hide}}
+
+        {{#page.register.show_or_hide}}
+        <section class="section section-light-grey is-medium" id="register">
+            <div class="container">
+                <div class="title-wrapper has-text-centered">
+                    <h2 class="title is-2 is-spaced">{{page.register.title}}</h2>
+                    <h3 class="subtitle is-5 is-muted">{{page.register.subtitle}}</h3>
+                    <div class="divider is-centered"></div>
+                </div>
+
+                <div class="content-wrapper">
+                    <div class="columns">
+                        <div class="column is-6 is-offset-3">
+                            <form>
+                                <div class="columns is-multiline">
+                                    <div class="column is-6">
+                                        <input class="input is-medium" type="text" id="edd-user-firstName" placeholder="Enter your Name">
+                                    </div>
+                                    <div class="column is-6">
+                                        <input class="input is-medium" type="email" id="edd-user-email" placeholder="Enter your Email">
+                                    </div>
+                                    <div class="column is-12">
+                                        <textarea class="textarea" rows="10" id="edd-user-message" placeholder="Write someting ..."></textarea>
+                                    </div>
+                                    <div class="form-footer has-text-centered mt-10">
+                                        <button id="btn-register" class="button cta is-large primary-btn raised is-clear"  style="background-color:{{page.register.btn_color}}; border-color:{{page.register.btn_color}};">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {{/page.register.show_or_hide}}
+		
+		{{>footer}}
+	</div>
+
+	<script>
+        window.__PRELOADED__ = {{{preloaded}}}
+    </script>
+
+	<!-- Vertex library for enabling site updates from https://www.vertex360.co -->
+    <script type="text/javascript" src="https://cdn.turbo360-dev.com/dist/vertex.min.js"></script>
+
+    {{>scripts}}
+</body>
+</html>

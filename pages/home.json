@@ -1,0 +1,104 @@
+{
+    "hero_section": {
+        "title": "Manage, Deploy.",
+        "subtitle": "Lorem ipsum sit dolor amet is a dummy text used by typography industry",
+        "img_hero": "https://lh3.googleusercontent.com/w_afnmLetzRSI4yggHZfyRB_h89KgNFoyI5OdX6ulzmL1SBuh1PVXSRQuGgvFv1omQlWzK21GFCdj4tgyjdhR04pfQ",
+        "btn_text": "Get Started",
+        "btn_color": "cornflowerblue",
+        "clients": [{"img_client": "https://lh3.googleusercontent.com/bbdDwxyWSlzh1LiUKrcNOjhgL-Yma-dRQz1JMnQlwEH5GlxOj47zo0DfM8RPS-C4yMIZPCpqOYyq3NKsDtHHD-o"}, 
+                    {"img_client": "https://lh3.googleusercontent.com/KrRPUPB8JMtDeGed_54pNqWA5tX36WnAIrUeVpTxRdjyYJfkiVUx7BZshWCMj335RXOKquruX7JlxPF7q5UYQsmc0g"}, 
+                    {"img_client": "https://lh3.googleusercontent.com/m-bsoDur5g4UsQCLruDdZfDFbUGfS9UJeU8415Vn9fgFFzbTC4mm_q1Gpd2MI9Gi6Xodc-xBFgwuWyXMo00Rx9d1mXI"}, 
+                    {"img_client": "https://lh3.googleusercontent.com/LwdxQf5QzwDwp2z5_HM0cm1Tf5TcKoRoiowOLBMALf_lE1NR0gIyIts209D7aex8HGMSJKRa6comzaoCWOZk_XcE"}, 
+                    {"img_client": "https://lh3.googleusercontent.com/61XzfgGjD--ByCe8kxWhn7XQ6bkq43fp7b_DIBfTne4RN07eMuiYtEo9F47-Xs-LJUem4IWsXQXOi0BjJ21gBioI3eQ"}]
+    },
+    "section1": {
+        "title": "Great Power Comes",
+        "subtitle": "With great Responsability",
+        "lists": {
+            "list1": {
+                "title": "App builder",
+                "img_list": "https://lh3.googleusercontent.com/J4Urp-y1idTCrvzaMZlSkM-6mdzFMKb19s_XucdNuEMOoQXhhGKU63xu2JSNuBp8avzAKw75VrjLOYK99WIt2tYv",
+                "description": "This is some explanatory text that is on two rows",
+                "btn_text": "Free Trial",
+                "btn_color": "mediumseagreen"
+            },
+            "list2": {
+                "title": "Cloud integration",
+                "img_list": "https://lh3.googleusercontent.com/u-aOGURXUC8IeMWfdgZT_Ifc8W_vNxOMkgpRA08d9y3u2R7Z3TJ8JntCZ-PkC2Vf5dXZ6IT17J6jG2mk0JUoXy0K2bM",
+                "description": "This is some explanatory text that is on two rows",
+                "btn_text": "Get Started",
+                "btn_color": "orange"
+            },
+            "list3": {
+                "title": "Addons & Plugins",
+                "img_list": "https://lh3.googleusercontent.com/A9ihoObeTeIq3yh0Cq-TEvXVau0VzJ5InDiXViqW2YfkGKpACowzED0i_GpJ94y3khEmKkibmPRl4OCIJwzOvObUAck",
+                "description": "This is some explanatory text that is on two rows",
+                "btn_text": "Get Started",
+                "btn_color": "royalblue"
+            }
+        },
+        "show_or_hide": true
+    },
+    "section2": {
+        "title": "You're here because you want the best",
+        "subtitle": "And we Know it",
+        "lists": {
+            "list1": {
+                "title": "Powerful and unified interface",
+                "img_list": "https://lh3.googleusercontent.com/Vyxp2SLMHFR7DL6SoioN83dFo6sr51Q0OOvcfjz9b3RBu_GLf8KOkP9K_2_8o8nJ-EqI0SQ1x5RkGkp-bnONTPyYtX8",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor."
+            },
+            "list2": {
+                "title": "Cross device Synchronisation",
+                "img_list": "https://lh3.googleusercontent.com/AyEiWrYA0uPHg--RA2X2PvX4FkpijvqAk4VKR9hW2QuJnVe3kdPHBp-BjZC_JmcVP8SxkaxjsrIzRaOioe_-0m0",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor."
+            },
+            "list3": {
+                "title": "Nomad System",
+                "img_list": "https://lh3.googleusercontent.com/Ld1x0dj3AlPTbanBX6WtmMBJYotDKlNgiFzkAR2NSwgw8sVLUT_4Mfk1mqSQjwC1RTMVpM_QcwGwrTF6Ga7ekpWexg",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor."
+            }
+        },
+        "show_or_hide": true
+    },
+    "section3": {
+        "img_section": "https://lh3.googleusercontent.com/SUX5E1D_MYPcQZyO0KMYsdBsSApT3QUYmFTeISzVKYwo7OTHJ8QjN6UW6L87tfqfiD2XhXYyM8aKB6faGdvEfIfzE9g",
+        "title": "One Platform",
+        "subtitle": "To rule them All",
+        "btn_text": "Get Started",
+        "btn_color": "orange",
+        "show_or_hide": true
+    },
+    "section4": {
+        "title": "Our Clients love us !",
+        "subtitle": "Lorem ipsum sit dolor amet is a dummy text used by typography industry",
+        "lists": {
+            "list1": {
+                "description": "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.",
+                "img_list": "https://lh3.googleusercontent.com/Idu8RYUu4b_fvBL12_hbGC3va2QbsGutMVVxvgNOELfsIClb85SiNS2StjClzXTCzbe7B6e5_3-cE09eOiF0S3kQBg",
+                "name": "Irma Walters",
+                "position": "Accountant"
+            },
+            "list2": {
+                "description": "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.",
+                "img_list": "https://lh3.googleusercontent.com/0HzVOLNaPdXw4KLw2mq8-9rJh23g4DseSf5kK9hYsvHjJNiLiIaIQLvfGxmmshZdS7Iuw_pIDDV9ppiM272wvSw76I8",
+                "name": "John Bradley",
+                "position": "Financial Analyst"
+            },
+            "list3": {
+                "description": "Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.",
+                "img_list": "https://lh3.googleusercontent.com/x8obNveaSK2weA6jitWppTw9-_4Nds8izjUtydqEKbyApAMObF2ArDr0PeF-nmPIqc9q04WD77RhDAyJbsdAi7athTM",
+                "name": "Gary Blackman",
+                "position": "HR Manager"
+            }
+        },
+        "show_or_hide": true
+    },
+    "register": {
+        "title": "Drop us a line or two ",
+        "subtitle": "We'd love to hear from You",
+        "btn_text": "Send Message",
+        "btn_color": "cornflowerblue",
+        "show_or_hide": true
+    }
+}

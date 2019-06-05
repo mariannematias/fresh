@@ -1,0 +1,67 @@
+.navbar.is-fresh .navbar-brand img {
+    width: 160px;
+    height: auto;
+}
+.hero-foot img.partner-logo {
+    height: auto;
+    width: 125px;
+}
+.hero-foot .tabs a {
+    border: 0;
+}
+.feature-card .card-icon img {
+    height: auto;
+    width: 65px;
+    margin: 3rem 0 1.7rem;
+}
+.image img {
+    width: 75px;
+    padding-top: 35px;
+    margin-right: 20px;
+}
+img.pushed-image {
+    border-radius: 5px;
+}
+.footer-logo,
+.social,
+.vertex {
+    text-align: center;
+}
+footer.footer-dark .footer-logo img {
+    height: auto;
+}
+.footer-logo img {
+    width: 160px;
+}
+.social {
+    margin-top: 10px;
+}
+.level.is-mobile {
+    display: inline-flex;
+}
+.level.is-mobile .level-item {
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    color: #F39200;
+}
+.level.is-mobile a:first-child {
+    margin-left: 1rem;
+}
+.level.is-mobile a:last-child {
+    margin-right: 0;
+}
+.vertex {
+    margin: 3rem 0 0;
+}
+.footer {
+    padding: 3rem 0 2rem;
+}
+.media.icon-box {
+    margin-left: 2rem;
+}
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: portrait) {
+    .image img {
+        margin-right: auto;
+    }
+}

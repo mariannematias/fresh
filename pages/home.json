@@ -44,18 +44,18 @@
         "subtitle": "And we Know it",
         "lists": {
             "list1": {
-                "title": "Powerful and unified interface",
                 "img_list": "https://lh3.googleusercontent.com/Vyxp2SLMHFR7DL6SoioN83dFo6sr51Q0OOvcfjz9b3RBu_GLf8KOkP9K_2_8o8nJ-EqI0SQ1x5RkGkp-bnONTPyYtX8",
+                "title": "Powerful and unified interface",
                 "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor."
             },
             "list2": {
-                "title": "Cross device Synchronisation",
                 "img_list": "https://lh3.googleusercontent.com/AyEiWrYA0uPHg--RA2X2PvX4FkpijvqAk4VKR9hW2QuJnVe3kdPHBp-BjZC_JmcVP8SxkaxjsrIzRaOioe_-0m0",
+                "title": "Cross device Synchronisation",
                 "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor."
             },
             "list3": {
-                "title": "Nomad System",
                 "img_list": "https://lh3.googleusercontent.com/Ld1x0dj3AlPTbanBX6WtmMBJYotDKlNgiFzkAR2NSwgw8sVLUT_4Mfk1mqSQjwC1RTMVpM_QcwGwrTF6Ga7ekpWexg",
+                "title": "Nomad System",
                 "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor."
             }
         },
